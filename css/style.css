@@ -1,0 +1,1759 @@
+/* Google Fonts links */
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Nunito:ital,wght@0,200;0,400;0,500;1,300;1,700&family=Poppins&family=Raleway:ital,wght@1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Nunito:ital,wght@0,200;0,400;0,500;1,300;1,700&family=Poppins&family=Raleway:ital,wght@1,300;1,400;1,500;1,600&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Nunito:ital,wght@0,200;0,400;0,500;1,300;1,700&family=Poppins&family=Raleway:ital,wght@1,300;1,400;1,500;1,600&family=Roboto+Slab&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Josefin+Sans:ital@1&family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Nunito:ital,wght@0,200;0,400;0,500;1,300;1,700&family=Poppins&family=Raleway:ital,wght@1,300;1,400;1,500;1,600&family=Roboto+Slab&family=Roboto:ital@1&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+/* header css */
+
+.top {
+    padding-top: 30px;
+}
+
+.comapny-logo {
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+
+/* navigation css */
+
+.navigation {
+    position: absolute;
+    position: scroll;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to right, #99402e, #dadc64);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 9%;
+}
+
+.navigation .navbar a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 .8rem;
+    text-decoration: none;
+}
+
+.navigation .navbar a:hover {
+    color: rgb(240, 227, 33);
+}
+
+header .icons i {
+    font-size: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.navigation .btn {
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+
+/* search css */
+
+.main {
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-text {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 250px;
+    margin-left: 100px
+}
+
+.main .main-text h4 {
+    color: brown;
+}
+
+.main .main-text h2 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main .btn {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+
+/* box section css */
+
+.box-section {
+    height: 200px;
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(to bottom right, #963e2c, #c9cb52), url(../images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.box-section h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* about css */
+
+#about {
+    height: 500px;
+}
+
+.part_photo .img-fluid {
+    height: 520px;
+}
+
+.about .part_text {
+    margin-top: 40px;
+    line-height: 2;
+}
+
+.about .part_text h4 {
+    font-size: 24px;
+}
+
+.about .part_text p {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.about .part_text .info li {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.about .btn {
+    color: #fff;
+}
+
+.about .btn:hover {
+    /* color: #963e2c; */
+    /* background-color: #fff; */
+}
+
+
+/* services css */
+
+#services {
+    margin-top: 50px;
+    padding-top: 50px;
+    background-image: linear-gradient(to bottom right, rgba(20, 15, 15, 0.951), rgba(49, 42, 26, 0.4)), url(../images/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+#services .service-box {
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+#services .service-box h3 {
+    /* color: greenyellow; */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#services .service-box p {
+    text-align: justify;
+    margin-right: 130px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#services h2 {
+    color: rgb(201, 188, 46);
+}
+
+
+/* user-feedback */
+
+.users-feedback {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.user-review {
+    text-align: center;
+    box-shadow: 0 0 0px 0 rgba(0, 0, 100, 0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p {
+    padding: 50px 10px 10px 10px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.user-review h5,
+h6 {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.users-feedback img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -200px;
+    margin-top: 50px;
+}
+
+.user-review p::before {
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #070553;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: -70px;
+}
+
+
+/* banner css */
+
+.banner-highlights {
+    padding: 70px 0;
+    background: linear-gradient(to right, #963e2c, #c9cb52);
+    text-align: center;
+    color: white;
+    margin-bottom: -16px;
+}
+
+.banner-highlights h2 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.booking-btn {
+    height: 50px;
+    width: 230px;
+    padding: 8px 0;
+    border-radius: 50px;
+    background-color: #963e2c;
+    color: #fff;
+}
+
+.booking-btn:hover {
+    background-color: #381fa7;
+    color: #fff;
+}
+
+.box p {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    margin-left: 500px;
+    text-align: center;
+}
+
+
+/* footer css */
+
+#footer {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footText {
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#footText {
+    text-align: center;
+    margin-top: 27%;
+    font-size: 20px;
+}
+
+.footDivData {
+    margin-left: 10%;
+}
+
+.footDiv {
+    height: 100px;
+    width: 33%;
+    color: #fff;
+    float: left;
+    text-align: left;
+    margin-top: 5%;
+}
+
+.email-box {
+    display: inline-block;
+}
+
+.email-box input {
+    width: 250px;
+    padding: 8px 0;
+    background-color: #090909;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.email-box button {
+    width: 250px;
+    padding: 8px 0;
+    background-image: linear-gradient(to right, #963e2c, #c9cb52);
+    color: #fff;
+    margin-top: 20px;
+}
+
+.email-box button:hover {
+    background-image: linear-gradient(to right, #c9cb52, #963e2c);
+    color: #fff;
+}
+
+.footer .social-media {
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 500px;
+}
+
+#footer #social {
+    position: absolute;
+    float: left;
+    margin-left: 10%;
+    margin-top: 19%;
+}
+
+.slogo {
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Media queries */
+
+
+/* For Mobile devices */
+
+@media screen and (max-width:390px) {
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    /* header css */
+    .top {
+        padding-top: 30px;
+    }
+    .comapny-logo {
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    /* navigation css */
+    .navigation {
+        position: absolute;
+        position: scroll;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #99402e, #dadc64);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 9%;
+    }
+    .navigation .navbar a {
+        color: #fff;
+        font-size: 20px;
+        margin: 0 .8rem;
+        text-decoration: none;
+    }
+    .navigation .navbar a:hover {
+        color: rgb(240, 227, 33);
+    }
+    header .icons i {
+        font-size: 2.5rem;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    .navigation .btn {
+        display: inline-block;
+        background-color: #fff;
+        border-radius: 40px;
+    }
+    .navigation .btn .search-box {
+        width: 50px;
+    }
+    /* search css */
+    .main {
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-text {
+        position: absolute;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 350px;
+        margin-left: 50px
+    }
+    .main .main-text h4 {
+        color: brown;
+    }
+    .main .main-text h2 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .main .btn {
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    /* box section css */
+    .box-section {
+        height: 200px;
+        padding: 100px 20px 15px;
+        background-image: linear-gradient(to bottom right, #963e2c, #c9cb52), url(../images/download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        font-size: 100px;
+        padding-top: 80px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .box-section h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* about css */
+    #about {
+        height: 900px;
+    }
+    .part_photo .img-fluid {
+        height: 300px;
+    }
+    .about .part_text {
+        margin-top: 40px;
+        line-height: 2;
+    }
+    .about .part_text h4 {
+        font-size: 24px;
+    }
+    .about .part_text p {
+        border-bottom: 1px solid #f1f1f1;
+        float: left;
+    }
+    .about .part_text .info li {
+        width: 48%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .about .btn {
+        display: inline-block;
+        float: left;
+        color: #fff;
+    }
+    /* services css */
+    #services {
+        margin-top: 50px;
+        padding-top: 50px;
+        background-image: linear-gradient(to bottom right, rgba(20, 15, 15, 0.951), rgba(49, 42, 26, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1700px;
+        color: #fff;
+        line-height: 1.5;
+    }
+    #services .service-box {
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+    #services .service-box h3 {
+        /* color: greenyellow; */
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #services .service-box p {
+        text-align: justify;
+        margin-right: 130px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #services h2 {
+        color: rgb(201, 188, 46);
+    }
+    /* user-feedback */
+    .users-feedback {
+        padding: 100px 0;
+        text-align: center;
+    }
+    .user-review {
+        text-align: center;
+        box-shadow: 0 0 0px 0 rgba(0, 0, 100, 0.2);
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .user-review p {
+        padding: 50px 10px 10px 10px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .user-review h5,
+    h6 {
+        text-align: left;
+        margin-left: 80px;
+    }
+    .users-feedback img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -75px;
+        margin-top: 30px;
+    }
+    .user-review p::before {
+        content: '\201d';
+        display: block;
+        position: absolute;
+        font-size: 100px;
+        color: #070553;
+        font-family: sans-serif;
+        margin-left: 95px;
+        margin-top: -70px;
+    }
+    /* banner css */
+    .banner-highlights {
+        padding: 70px 0;
+        background: linear-gradient(to right, #963e2c, #c9cb52);
+        text-align: center;
+        color: white;
+        margin-bottom: -16px;
+    }
+    .banner-highlights h2 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .booking-btn {
+        height: 50px;
+        width: 230px;
+        padding: 8px 0;
+        margin-top: 20px;
+        border-radius: 50px;
+        background-color: #963e2c;
+        color: #fff;
+    }
+    /* footer css */
+    #footer {
+        height: 200px;
+        width: 50%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .footDivData {
+        display: inline-block;
+        float: left;
+        margin-left: 10%;
+    }
+    #footText {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #footText {
+        text-align: center;
+        margin-top: 140%;
+        font-size: 20px;
+    }
+    .footDiv {
+        height: 100px;
+        width: 33%;
+        color: #fff;
+        float: left;
+        text-align: left;
+        margin-top: 5%;
+    }
+    .email-box {
+        display: inline-block;
+        float: left;
+        margin-left: 100%;
+        /* margin-left: 30px; */
+        margin-top: 30%;
+    }
+    .email-box input {
+        width: 250px;
+        padding: 8px 0;
+        background-color: #090909;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .email-box button {
+        width: 250px;
+        padding: 8px 0;
+        background-image: linear-gradient(to right, #963e2c, #c9cb52);
+        color: #fff;
+        margin-top: 100px;
+        float: left;
+        display: inline-block;
+    }
+    .email-box button:hover {
+        background-image: linear-gradient(to right, #c9cb52, #963e2c);
+        color: #fff;
+    }
+    #footer #social {
+        position: absolute;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .slogo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+/* For iPads, Tablets devices */
+
+@media screen and (max-width:481px) {
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    /* header css */
+    .top {
+        padding-top: 30px;
+        margin-left: 100px;
+    }
+    .comapny-logo {
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    /* navigation css */
+    .navigation {
+        position: absolute;
+        position: scroll;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #99402e, #dadc64);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 9%;
+    }
+    .navigation .navbar a {
+        color: #fff;
+        font-size: 20px;
+        margin: 0 .8rem;
+        text-decoration: none;
+    }
+    .navigation .navbar a:hover {
+        color: rgb(240, 227, 33);
+    }
+    header .icons i {
+        font-size: 2.5rem;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    .navigation .btn {
+        background-color: #fff;
+        border-radius: 50px;
+    }
+    /* search css */
+    .main {
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-text {
+        position: absolute;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 350px;
+        margin-left: 50px
+    }
+    .main .main-text h4 {
+        color: brown;
+    }
+    .main .main-text h2 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .main .btn {
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    /* box section css */
+    .box-section {
+        height: 200px;
+        padding: 100px 20px 15px;
+        background-image: linear-gradient(to bottom right, #963e2c, #c9cb52), url(../images/download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        font-size: 100px;
+        padding-top: 80px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .box-section h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* about css */
+    #about {
+        height: 900px;
+    }
+    .part_photo .img-fluid {
+        height: 300px;
+    }
+    .about .part_text {
+        margin-top: 40px;
+        line-height: 2;
+    }
+    .about .part_text h4 {
+        font-size: 24px;
+    }
+    .about .part_text p {
+        border-bottom: 1px solid #f1f1f1;
+        float: left;
+    }
+    .about .part_text .info li {
+        width: 48%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .about .btn {
+        display: inline-block;
+        float: left;
+        color: #fff;
+    }
+    /* services css */
+    #services {
+        margin-top: 50px;
+        padding-top: 50px;
+        background-image: linear-gradient(to bottom right, rgba(20, 15, 15, 0.951), rgba(49, 42, 26, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1200px;
+        color: #fff;
+        line-height: 1.5;
+    }
+    #services .service-box {
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+    #services .service-box h3 {
+        /* color: greenyellow; */
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #services .service-box p {
+        text-align: justify;
+        margin-right: 130px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #services h2 {
+        color: rgb(201, 188, 46);
+    }
+    /* user-feedback */
+    .users-feedback {
+        padding: 100px 0;
+        text-align: center;
+    }
+    .user-review {
+        text-align: center;
+        box-shadow: 0 0 0px 0 rgba(0, 0, 100, 0.2);
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .user-review p {
+        padding: 50px 10px 10px 10px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .user-review h5,
+    h6 {
+        text-align: left;
+        margin-left: 80px;
+    }
+    .users-feedback img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -75px;
+        margin-top: 30px;
+    }
+    .user-review p::before {
+        content: '\201d';
+        display: block;
+        position: absolute;
+        font-size: 100px;
+        color: #070553;
+        font-family: sans-serif;
+        margin-left: 95px;
+        margin-top: -70px;
+    }
+    /* banner css */
+    .banner-highlights {
+        padding: 70px 0;
+        background: linear-gradient(to right, #963e2c, #c9cb52);
+        text-align: center;
+        color: white;
+        margin-bottom: -16px;
+    }
+    .banner-highlights h2 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .booking-btn {
+        height: 50px;
+        width: 230px;
+        padding: 8px 0;
+        margin-top: 20px;
+        border-radius: 50px;
+        background-color: #963e2c;
+        color: #fff;
+    }
+    /* footer css */
+    #footer {
+        height: 100px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footDivData {
+        display: inline-block;
+        float: left;
+        margin-left: 10%;
+    }
+    #footText {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #footText {
+        text-align: center;
+        margin-top: 140%;
+        font-size: 20px;
+    }
+    .footDiv {
+        height: 100px;
+        width: 33%;
+        color: #fff;
+        float: left;
+        text-align: left;
+        margin-top: 5%;
+    }
+    .email-box {
+        display: inline-block;
+    }
+    .email-box input {
+        width: 250px;
+        padding: 8px 0;
+        background-color: #090909;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .email-box button {
+        width: 250px;
+        padding: 8px 0;
+        background-image: linear-gradient(to right, #963e2c, #c9cb52);
+        color: #fff;
+        margin-top: 100px;
+    }
+    .email-box button:hover {
+        background-image: linear-gradient(to right, #c9cb52, #963e2c);
+        color: #fff;
+    }
+    #footer #social {
+        position: absolute;
+        float: left;
+        margin-left: 10%;
+        margin-top: 110%;
+    }
+    .slogo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+/* For Small screens, laptops */
+
+@media screen and (max-width:769px) {
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    /* header css */
+    .top {
+        padding-top: 30px;
+    }
+    .comapny-logo {
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    /* navigation css */
+    .navigation {
+        position: absolute;
+        position: scroll;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #99402e, #dadc64);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 9%;
+    }
+    .navigation .navbar a {
+        color: #fff;
+        font-size: 20px;
+        margin: 0 .8rem;
+        text-decoration: none;
+    }
+    .navigation .navbar a:hover {
+        color: rgb(240, 227, 33);
+    }
+    header .icons i {
+        font-size: 2.5rem;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    .navigation .btn {
+        background-color: #fff;
+        border-radius: 50px;
+    }
+    /* search css */
+    .main {
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-text {
+        position: absolute;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 350px;
+        margin-left: 50px
+    }
+    .main .main-text h4 {
+        color: brown;
+    }
+    .main .main-text h2 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .main .btn {
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    /* box section css */
+    .box-section {
+        height: 200px;
+        padding: 100px 20px 15px;
+        background-image: linear-gradient(to bottom right, #963e2c, #c9cb52), url(../images/download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        font-size: 100px;
+        padding-top: 80px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .box-section h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* about css */
+    #about {
+        height: 900px;
+    }
+    .part_photo .img-fluid {
+        height: 300px;
+    }
+    .about .part_text {
+        margin-top: 40px;
+        line-height: 2;
+    }
+    .about .part_text h4 {
+        font-size: 24px;
+    }
+    .about .part_text p {
+        border-bottom: 1px solid #f1f1f1;
+        float: left;
+    }
+    .about .part_text .info li {
+        width: 48%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .about .btn {
+        display: inline-block;
+        float: left;
+        color: #fff;
+    }
+    /* services css */
+    #services {
+        margin-top: 50px;
+        padding-top: 50px;
+        background-image: linear-gradient(to bottom right, rgba(20, 15, 15, 0.951), rgba(49, 42, 26, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1700px;
+        color: #fff;
+        line-height: 1.5;
+    }
+    #services .service-box {
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+    #services .service-box h3 {
+        /* color: greenyellow; */
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #services .service-box p {
+        text-align: justify;
+        margin-right: 130px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #services h2 {
+        color: rgb(201, 188, 46);
+    }
+    /* user-feedback */
+    .users-feedback {
+        padding: 100px 0;
+        text-align: center;
+    }
+    .user-review {
+        text-align: center;
+        box-shadow: 0 0 0px 0 rgba(0, 0, 100, 0.2);
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .user-review p {
+        padding: 50px 10px 10px 10px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .user-review h5,
+    h6 {
+        text-align: left;
+        margin-left: 80px;
+    }
+    .users-feedback img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -75px;
+        margin-top: 30px;
+    }
+    .user-review p::before {
+        content: '\201d';
+        display: block;
+        position: absolute;
+        font-size: 100px;
+        color: #070553;
+        font-family: sans-serif;
+        margin-left: 95px;
+        margin-top: -70px;
+    }
+    /* banner css */
+    .banner-highlights {
+        padding: 70px 0;
+        background: linear-gradient(to right, #963e2c, #c9cb52);
+        text-align: center;
+        color: white;
+        margin-bottom: -16px;
+    }
+    .banner-highlights h2 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .booking-btn {
+        height: 50px;
+        width: 230px;
+        padding: 8px 0;
+        margin-top: 20px;
+        border-radius: 50px;
+        background-color: #963e2c;
+        color: #fff;
+    }
+    /* footer css */
+    #footer {
+        height: 100px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footDivData {
+        display: inline-block;
+        float: left;
+        margin-left: 10%;
+    }
+    #footText {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #footText {
+        text-align: center;
+        margin-top: 140%;
+        font-size: 20px;
+    }
+    .footDiv {
+        height: 100px;
+        width: 33%;
+        color: #fff;
+        float: left;
+        text-align: left;
+        margin-top: 5%;
+    }
+    .email-box {
+        display: inline-block;
+    }
+    .email-box input {
+        width: 250px;
+        padding: 8px 0;
+        background-color: #090909;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .email-box button {
+        width: 250px;
+        padding: 8px 0;
+        background-image: linear-gradient(to right, #963e2c, #c9cb52);
+        color: #fff;
+        margin-top: 100px;
+    }
+    .email-box button:hover {
+        background-image: linear-gradient(to right, #c9cb52, #963e2c);
+        color: #fff;
+    }
+    #footer #social {
+        position: absolute;
+        float: left;
+        margin-left: 10%;
+        margin-top: 110%;
+    }
+    .slogo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+/* For Desktops, large screens */
+
+@media screen and (max-width:974px) {
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    /* header css */
+    .top {
+        padding-top: 30px;
+    }
+    .comapny-logo {
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    /* navigation css */
+    .navigation {
+        position: absolute;
+        position: scroll;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #99402e, #dadc64);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 9%;
+    }
+    .navigation .navbar a {
+        color: #fff;
+        font-size: 20px;
+        margin: 0 .8rem;
+        text-decoration: none;
+    }
+    .navigation .navbar a:hover {
+        color: rgb(240, 227, 33);
+    }
+    header .icons i {
+        font-size: 2.5rem;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    .navigation .btn {
+        background-color: #fff;
+        border-radius: 50px;
+    }
+    /* search css */
+    .main {
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-text {
+        position: absolute;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 350px;
+        margin-left: 50px
+    }
+    .main .main-text h4 {
+        color: brown;
+    }
+    .main .main-text h2 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .main .btn {
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    /* box section css */
+    .box-section {
+        height: 200px;
+        padding: 100px 20px 15px;
+        background-image: linear-gradient(to bottom right, #963e2c, #c9cb52), url(../images/download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        font-size: 100px;
+        padding-top: 80px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .box-section h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* about css */
+    #about {
+        height: 900px;
+    }
+    .part_photo .img-fluid {
+        height: 300px;
+    }
+    .about .part_text {
+        margin-top: 40px;
+        line-height: 2;
+    }
+    .about .part_text h4 {
+        font-size: 24px;
+    }
+    .about .part_text p {
+        border-bottom: 1px solid #f1f1f1;
+        float: left;
+    }
+    .about .part_text .info li {
+        width: 48%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .about .btn {
+        display: inline-block;
+        float: left;
+        color: #fff;
+    }
+    /* services css */
+    #services {
+        margin-top: 50px;
+        padding-top: 50px;
+        background-image: linear-gradient(to bottom right, rgba(20, 15, 15, 0.951), rgba(49, 42, 26, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100px;
+        color: #fff;
+        line-height: 1.5;
+    }
+    #services .service-box {
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+    #services .service-box h3 {
+        /* color: greenyellow; */
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #services .service-box p {
+        text-align: justify;
+        margin-right: 130px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #services h2 {
+        color: rgb(201, 188, 46);
+    }
+    /* user-feedback */
+    .users-feedback {
+        padding: 100px 0;
+        text-align: center;
+    }
+    .user-review {
+        text-align: center;
+        box-shadow: 0 0 0px 0 rgba(0, 0, 100, 0.2);
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .user-review p {
+        padding: 50px 10px 10px 10px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .user-review h5,
+    h6 {
+        text-align: left;
+        margin-left: 80px;
+    }
+    .users-feedback img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -75px;
+        margin-top: 30px;
+    }
+    .user-review p::before {
+        content: '\201d';
+        display: block;
+        position: absolute;
+        font-size: 100px;
+        color: #070553;
+        font-family: sans-serif;
+        margin-left: 95px;
+        margin-top: -70px;
+    }
+    /* banner css */
+    .banner-highlights {
+        padding: 70px 0;
+        background: linear-gradient(to right, #963e2c, #c9cb52);
+        text-align: center;
+        color: white;
+        margin-bottom: -16px;
+    }
+    .banner-highlights h2 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .booking-btn {
+        height: 50px;
+        width: 230px;
+        padding: 8px 0;
+        margin-top: 20px;
+        border-radius: 50px;
+        background-color: #963e2c;
+        color: #fff;
+    }
+    /* footer css */
+    #footer {
+        height: 1500px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footDivData {
+        display: inline-block;
+        float: left;
+        margin-left: 10%;
+    }
+    #footText {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #footText {
+        text-align: center;
+        margin-top: 140%;
+        font-size: 20px;
+    }
+    .footDiv {
+        height: 100px;
+        width: 33%;
+        color: #fff;
+        float: left;
+        text-align: left;
+        margin-top: 5%;
+    }
+    .email-box {
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+        margin-top: 60%;
+    }
+    .email-box input {
+        width: 250px;
+        padding: 8px 0;
+        background-color: #090909;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .email-box button {
+        width: 250px;
+        padding: 8px 0;
+        background-image: linear-gradient(to right, #963e2c, #c9cb52);
+        color: #fff;
+        margin-top: 100px;
+    }
+    .email-box button:hover {
+        background-image: linear-gradient(to right, #c9cb52, #963e2c);
+        color: #fff;
+    }
+    #footer #social {
+        position: absolute;
+        float: left;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .slogo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+
+/* For Extra large screens, TV */
+
+@media screen and (max-width:1201px) {
+    body {
+        font-family: 'Roboto Slab', serif;
+    }
+    /* header css */
+    .top {
+        padding-top: 30px;
+    }
+    .comapny-logo {
+        width: 150px;
+        padding-bottom: 20px;
+    }
+    /* navigation css */
+    .navigation {
+        position: absolute;
+        position: scroll;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to right, #99402e, #dadc64);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 9%;
+    }
+    .navigation .navbar a {
+        color: #fff;
+        font-size: 20px;
+        margin: 0 .8rem;
+        text-decoration: none;
+    }
+    .navigation .navbar a:hover {
+        color: rgb(240, 227, 33);
+    }
+    header .icons i {
+        font-size: 2.5rem;
+        color: #fff;
+        cursor: pointer;
+        margin-right: 2rem;
+    }
+    .navigation .btn {
+        background-color: #fff;
+        border-radius: 20px;
+        float: left;
+    }
+    /* search css */
+    .main {
+        height: 700px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .main-text {
+        position: absolute;
+        color: #fff;
+        font-size: 25px;
+        margin-top: 350px;
+        margin-left: 50px
+    }
+    .main .main-text h4 {
+        color: brown;
+    }
+    .main .main-text h2 {
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .main .btn {
+        height: 50px;
+        width: 150px;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    /* box section css */
+    .box-section {
+        height: 200px;
+        padding: 100px 20px 15px;
+        background-image: linear-gradient(to bottom right, #963e2c, #c9cb52), url(../images/download.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        font-size: 100px;
+        padding-top: 80px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .box-section h1 {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* about css */
+    #about {
+        height: 900px;
+    }
+    .part_photo .img-fluid {
+        height: 300px;
+    }
+    .about .part_text {
+        margin-top: 40px;
+        line-height: 2;
+    }
+    .about .part_text h4 {
+        font-size: 24px;
+    }
+    .about .part_text p {
+        border-bottom: 1px solid #f1f1f1;
+        float: left;
+    }
+    .about .part_text .info li {
+        width: 48%;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+    .about .btn {
+        display: inline-block;
+        float: left;
+        color: #fff;
+    }
+    /* services css */
+    #services {
+        margin-top: 50px;
+        padding-top: 50px;
+        background-image: linear-gradient(to bottom right, rgba(20, 15, 15, 0.951), rgba(49, 42, 26, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1400px;
+        color: #fff;
+        line-height: 1.5;
+    }
+    #services .service-box {
+        margin-top: 15px;
+        margin-left: 60px;
+    }
+    #services .service-box h3 {
+        /* color: greenyellow; */
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    #services .service-box p {
+        text-align: justify;
+        margin-right: 130px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #services h2 {
+        color: rgb(201, 188, 46);
+    }
+    /* user-feedback */
+    .users-feedback {
+        padding: 100px 0;
+        text-align: center;
+    }
+    .user-review {
+        text-align: center;
+        box-shadow: 0 0 0px 0 rgba(0, 0, 100, 0.2);
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    .user-review p {
+        padding: 50px 10px 10px 10px;
+        text-align: left;
+        margin-left: 80px;
+    }
+    .user-review h5,
+    h6 {
+        text-align: left;
+        margin-left: 80px;
+    }
+    .users-feedback img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: absolute;
+        margin-left: -75px;
+        margin-top: 30px;
+    }
+    .user-review p::before {
+        content: '\201d';
+        display: block;
+        position: absolute;
+        font-size: 100px;
+        color: #070553;
+        font-family: sans-serif;
+        margin-left: 95px;
+        margin-top: -70px;
+    }
+    /* banner css */
+    .banner-highlights {
+        padding: 70px 0;
+        background: linear-gradient(to right, #963e2c, #c9cb52);
+        text-align: center;
+        color: white;
+        margin-bottom: -16px;
+    }
+    .banner-highlights h2 {
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .booking-btn {
+        height: 50px;
+        width: 230px;
+        padding: 8px 0;
+        margin-top: 20px;
+        border-radius: 50px;
+        background-color: #963e2c;
+        color: #fff;
+    }
+    /* footer css */
+    #footer {
+        height: 750px;
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/img-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footDivData {
+        display: inline-block;
+        float: left;
+        margin-left: 10%;
+    }
+    #footText {
+        color: #fff;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #footText {
+        text-align: center;
+        margin-top: 170%;
+        font-size: 20px;
+    }
+    .footDiv {
+        height: 100px;
+        width: 33%;
+        color: #fff;
+        float: left;
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 5%;
+    }
+    .email-box {
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+        margin-top: 70%;
+    }
+    .email-box input {
+        width: 250px;
+        padding: 8px 0;
+        background-color: #090909;
+        color: #fff;
+        margin-top: 20px;
+    }
+    .email-box button {
+        width: 250px;
+        padding: 8px 0;
+        background-image: linear-gradient(to right, #963e2c, #c9cb52);
+        color: #fff;
+        margin-top: 10px;
+    }
+    .email-box button:hover {
+        background-image: linear-gradient(to right, #c9cb52, #963e2c);
+        color: #fff;
+    }
+    #footer #social {
+        position: absolute;
+        float: left;
+        margin-left: 20%;
+        margin-top: 145%;
+    }
+    .slogo {
+        height: 50px;
+        width: 50px;
+    }
+}
